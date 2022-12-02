@@ -9,9 +9,6 @@ HTML
 
 CSS
 
-## Required Libraries
-Font-Awesome
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
