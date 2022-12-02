@@ -5,14 +5,6 @@ body {
   font-size: 16px;
 }
 
-#banner {
-  width: 100%;
-  height: 400px;
-  background-image: url("../images/richmond-mural.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #logo {
   float: left;
   text-decoration: none;
@@ -52,8 +44,7 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 
@@ -63,13 +54,14 @@ div.desc {
 
 .responsive {
   padding: 0 6px;
-  float: left;
-  width: 24.99999%;
+  float: center;
+  width: 60%;
 }
 
 @media only screen and (max-width: 700px) {
   .responsive {
-    width: 49.99999%;
+    width: 60%;
+    float: center;
     margin: 6px 0;
   }
 }
@@ -78,15 +70,6 @@ div.desc {
   .responsive {
     width: 100%;
   }
-}
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.h2 {
-  color: #00a699;
 }
 
 .rrva-footer {
