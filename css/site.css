@@ -59,6 +59,7 @@ div.desc {
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .responsive {
