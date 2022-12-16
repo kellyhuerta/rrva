@@ -51,49 +51,41 @@ nav ul li a:hover {
   color: #000;
 }
 
-/* Main content styles */
+/* Content styles */
 
-main {
+.content {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.image {
   width: 90%;
-  margin: 0 auto;
+  flex-shrink: 0;
 }
 
-div.gallery:hover {
-  border: 1px;
+figcaption {
+  text-align: center;
+  font-style: italic;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 30px;
+.paragraph {
+  width: 50%;
+  margin-right: 10px;
 }
 
-div.desc {
-  text-align: left;
-  text-decoration: none;
+ul.hike-list li {
+  color: #000;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-/* Responsive styles */
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  width: 60%;
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 501px) and (max-width: 1000px) {
-  .responsive {
-    width: 50%;
-  }
+ul.hike-list li:first-child {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* Footer styles */

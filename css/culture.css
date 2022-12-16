@@ -51,49 +51,41 @@ nav ul li a:hover {
   color: #000;
 }
 
-/* Main content styles */
+/* Content styles */
 
-main {
-  width: 90%;
-  margin: 0 auto;
+.content {
+  display: flex;
+  align-items: center;
 }
 
-div.gallery:hover {
-  border: 1px;
+h2 {
+  text-align: center;
 }
 
-div.gallery img {
+.image {
   width: 100%;
-  height: auto;
-  border-radius: 30px;
+  flex-shrink: 0;
 }
 
-div.desc {
-  text-align: left;
-  text-decoration: none;
+figcaption {
+  text-align: center;
+  font-style: italic;
 }
 
-/* Responsive styles */
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
+.paragraph {
   width: 60%;
+  margin-right: 10px;
 }
 
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+ul.museum-list li {
+  color: #000;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-@media only screen and (min-width: 501px) and (max-width: 1000px) {
-  .responsive {
-    width: 50%;
-  }
+ul.museum-list li:first-child {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* Footer styles */

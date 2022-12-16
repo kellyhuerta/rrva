@@ -1,44 +1,73 @@
-body {
-  margin: 0;
-  background-color: #f4f1ea;
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+html {
   font-family: "Nunito", Arial, sans-serif;
-  font-size: 16px;
+  background-color: #f4f1ea;
 }
 
-#banner {
-  width: 100%;
-  height: 400px;
-  background-image: url("../images/richmond-mural.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#logo {
-  float: left;
+a {
   text-decoration: none;
 }
 
-nav {
-  overflow: hidden;
-  height: auto;
+li {
+  list-style-type: none;
+}
+
+/* Header styles */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10%;
+  background-color: #f4f1ea;
+  justify-content: space-between;
+}
+
+.logo {
   color: #ff5a5f;
+  font-weight: 900;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
 }
 
 nav ul li {
-  color: #484848;
-  font-size: 20px;
-  list-style-type: none;
-  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 nav ul li a {
   color: #484848;
-  text-align: center;
-  padding: 14px 16px;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 1px;
 }
 
 nav ul li a:hover {
   color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 0%;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 div.gallery:hover {
@@ -56,6 +85,8 @@ div.desc {
   text-align: center;
   text-decoration: none;
 }
+
+/* Responsive styles */
 
 * {
   box-sizing: border-box;
@@ -89,6 +120,8 @@ div.desc {
 .h2 {
   color: #00a699;
 }
+
+/* Footer styles */
 
 .rrva-footer {
   color: #484848;
